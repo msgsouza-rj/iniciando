@@ -10,13 +10,13 @@ public class TestaCondiciomal {
 		// boolean titulo = false; // testa ausencia de titulo
 		
 		if (idade < 18) {
-			System.out.println("Você é menor e não pode voltar");
+			System.out.println("Você é menor e não pode votar");
 		}else	
 			if (titulo) {
-				System.out.println("Você é maior e tem título e pode voltar");
+				System.out.println("Você é maior e tem título e pode votar");
 			
 			}else {
-				System.out.println("Você é maior mas não tem título então não pode voltar");
+				System.out.println("Você é maior mas não tem título então não pode votar");
 			
 			}
 							
